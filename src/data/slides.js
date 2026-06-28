@@ -16,7 +16,7 @@ export const slides = [
       "Connect technical accessibility to a meaningful user outcome."
     ],
     visualType: "orb",
-    image: "/images/opportunity.webp",
+    image: `${import.meta.env.BASE_URL}images/opportunity.webp`,
     accent: "violet"
   },
   {
@@ -36,7 +36,7 @@ export const slides = [
       "Avoid clinical claims the evidence cannot support."
     ],
     visualType: "pulse",
-    image: "/images/trust.webp",
+    image: `${import.meta.env.BASE_URL}images/trust.webp`,
     accent: "coral"
   },
   {
@@ -57,7 +57,7 @@ export const slides = [
       "Design for longitudinal trust, not one-time astonishment."
     ],
     visualType: "timeline",
-    image: "/images/consistency.webp",
+    image: `${import.meta.env.BASE_URL}images/consistency.webp`,
     accent: "blue"
   },
   {
@@ -78,7 +78,7 @@ export const slides = [
       "Track whether use persists beyond initial curiosity."
     ],
     visualType: "rings",
-    image: "/images/behavior.webp",
+    image: `${import.meta.env.BASE_URL}images/behavior.webp`,
     accent: "green"
   },
   {
@@ -98,7 +98,7 @@ export const slides = [
       "Let users control or dismiss prompt patterns."
     ],
     visualType: "signal",
-    image: "/images/intervention.webp",
+    image: `${import.meta.env.BASE_URL}images/intervention.webp`,
     accent: "amber"
   },
   {
@@ -120,7 +120,7 @@ export const slides = [
       "Make deeper technical and educational information available on demand."
     ],
     visualType: "layers",
-    image: "/images/meaning.webp",
+    image: `${import.meta.env.BASE_URL}images/meaning.webp`,
     accent: "violet"
   },
   {
@@ -140,7 +140,7 @@ export const slides = [
       "Keep conversational confidence within clinical limits."
     ],
     visualType: "guardrail",
-    image: "/images/ai.webp",
+    image: `${import.meta.env.BASE_URL}images/ai.webp`,
     accent: "coral"
   },
   {
@@ -161,7 +161,7 @@ export const slides = [
       "Prioritize synthesis over additional metrics."
     ],
     visualType: "network",
-    image: "/images/architecture.webp",
+    image: `${import.meta.env.BASE_URL}images/architecture.webp`,
     accent: "blue"
   },
   {
@@ -180,7 +180,7 @@ export const slides = [
       "Distinguish a failed scan from a concerning health result."
     ],
     visualType: "camera",
-    image: "/images/transparency.webp",
+    image: `${import.meta.env.BASE_URL}images/transparency.webp`,
     accent: "green"
   },
   {
@@ -201,7 +201,7 @@ export const slides = [
       "Give users control over what is shared and with whom."
     ],
     visualType: "flow",
-    image: "/images/integration.webp",
+    image: `${import.meta.env.BASE_URL}images/integration.webp`,
     accent: "amber"
   },
   {
@@ -225,7 +225,7 @@ export const slides = [
       "The personalized health layer is the product."
     ],
     visualType: "finale",
-    image: "/images/product-thesis.webp",
+    image: `${import.meta.env.BASE_URL}images/product-thesis.webp`,
     accent: "violet"
   }
 ];
